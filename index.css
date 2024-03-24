@@ -7,7 +7,8 @@
 body{
   max-width: 1200px;
 margin: 140px auto 0 auto;
-overflow-x: none;
+overflow-x: hidden;
+padding: 0;
 
 
 }
@@ -1119,6 +1120,8 @@ margin: 0 auto;
 }
 body{
   width: 100%;
+  overflow-x: hidden;
+padding: 0;
 }
 
 .ensemble{
@@ -1418,6 +1421,8 @@ background: linear-gradient(to right, #24CCCF 27%, #CC38CF 100%);
   body{
     width: 90%;
     margin: 0 auto;
+    overflow-x: hidden;
+padding: 0;
   }
   .losange{
  
@@ -1479,8 +1484,10 @@ background: linear-gradient(to right, #24CCCF 27%, #CC38CF 100%);
 
   body {
     margin: 0;
-    padding: 0;
+  
     width: 100%;
+    overflow-x: hidden;
+padding: 0;
 }
 header{
   display: none;

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body onload="applyStyleOnLoad()">
+    <div class="gotop">
+        <button class="button">
+            <svg class="svgIcon" viewBox="0 0 384 512">
+                <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+            </svg>
+        </button>
+    </div>
+    
+
+    <header>
+        <div class="oui">
+            <div class="logo">
+                <img src="../images/Design sans titre-69.png" alt="" srcset="">
+            </div>
+            <div class="pages">
+                <div class="infos">
+                    <a href="../index.html" onclick="onPageLinkClicked('un')"><h5 id="un">Home</h5></a>
+                    <a href="./about.html"  onclick="onPageLinkClicked('deux')"><h5 id="deux">About</h5></a>
+                    <a href="./projects.html" onclick="onPageLinkClicked('trois')"><h5 id="trois">Projects</h5></a>
+                    <a href="./skill.html" onclick="onPageLinkClicked('cinq')"><h5 id="cinq">Skill</h5></a>
+                    <a href="./contact.html" onclick="onPageLinkClicked('quatre')"><h5 id="quatre">Contact</h5></a>
+                </div>
+            </div>
+            <div class="resaux">
+                <a href="https://www.linkedin.com/in/youness-benakkaf-334a472b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin" ></i></a>
+                <a href="https://github.com/ybkk65"><i class="fab fa-github" ></i></a>
+                <a href="https://x.com/ybenakkaf?s=21&t=C0I7Cq6pZ4Nnw8e-dBh9cQ"><i class="fa-brands fa-x-twitter "></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div id="navbarptit">
+        <div class="navlog">
+            <img src="../images/Design sans titre-69.png" alt="">
+        </div>
+        <div class="offnav">
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i> <!-- Ajout de l'icône croix -->
+            </div>
+            <div class="offnavcontent">
+                <div class="redirection">
+                    <a href="../index.html" onclick="onPageLinkClicked('un')"><h5 id="un">Home</h5></a>
+                    <a href="./about.html"  onclick="onPageLinkClicked('deux')"><h5 id="deux">About</h5></a>
+                    <a href="./projects.html" onclick="onPageLinkClicked('trois')"><h5 id="trois">Projects</h5></a>
+                    <a href="./skill.html" onclick="onPageLinkClicked('cinq')"><h5 id="cinq">Skill</h5></a>
+                    <a href="./contact.html" onclick="onPageLinkClicked('quatre')"><h5 id="quatre">Contact</h5></a>
+                </div>
+                <div class="socialmedia">
+                    <a href="https://www.linkedin.com/in/youness-benakkaf-334a472b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin" ></i></a>
+            <a href="https://github.com/ybkk65"><i class="fab fa-github" ></i></a>
+            <a href="https://x.com/ybenakkaf?s=21&t=C0I7Cq6pZ4Nnw8e-dBh9cQ"><i class="fa-brands fa-x-twitter "></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+
+        <section id="aboutme">
+        
+            <div class="description_1">
+                <div class="contenuDescription">
+                    <h2>Salut, Je suis <span class="animated-text">Youness | Youns</span></h2>
+                    <p>Je suis un développeur Fullstack français, passionné par mon métier et animé par le souci du détail. Ma force réside dans ma capacité à m'adapter à une variété de projets et de conditions de travail. De plus, je possède un ensemble de compétences solides qui me permettent d'analyser efficacement les problèmes techniques rencontrés lors du développement. J'utilise des méthodes de débogage avancées et je suis habile à trouver les informations nécessaires pour résoudre les défis techniques.</p>
+                    <button class="download-button" onclick="downloadCV()">
+                        <div class="docs">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            CV
+                        </div>
+                        
+                        <div class="download">
+                            <svg viewBox="0 0 24 24" width="26" height="26" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                        </div>
+                    </button>
+               
+                </div>
+                <div class="maphoto">
+                    <img src="../images/Design sans titre-73.png" alt="">
+                </div>
+            </div>
+        
+            <div class="Etudes">
+                <h2>Etudes Effectuées.</h2>
+                <p>Investi dans mon travail et passionné par les sciences, voici mon parcours :</p>
+            </div>
+
+            <div class="parcours">
+
+                <div id="ensemble1" class="ensemble">
+                    <div class="codalogo">
+                        <img src="../images/coda_school_logo.jpeg" alt="">
+                        <p>Sept 2023 - Sept 2026</p>
+                    </div>
+                <div class="parcour_1">
+                    <div class="contenue_1">
+                        <h3>Bachelor Concepteur Développeur d'Applications</h3>
+                        <h5>Coda</h5>
+                        <ul>
+                            <li>Concevoir et développer des composants d'interface utilisateur en intégrant les recommandations de sécurité.</li><br>
+                            <li>Concevoir et développer la persistance des données en intégrant les recommandations de sécurité.</li><br>
+                            <li>Concevoir et développer une application multicouche répartie en intégrant les recommandations de sécurité.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="ensemble2" class="ensemble">
+                <div class="codalogo">
+                    <img src="../images/logo-univ-orléans_3.png" alt="">
+                    <p>Sept 2022 - Avril 2023</p>
+                </div>
+            <div class="parcour_1">
+                <div class="contenue_1">
+                    <h3>Licence Informatique Mathématiques Économie (1ère année)</h3>
+                        <h5>Université d'Orléans</h5>
+                        <ul>
+                            <li>Études d'algorithmie et apprentissage de Python</li><br>
+                            <li>Étude du cycle de maths et de la logique de programmation</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="ensemble3" class="ensemble">
+            <div class="codalogo">
+                <img src="../images/Capture d’écran 2024-03-12 à 20.41.40.png" alt="">
+                <p>Sept 2019 - juin 2021</p>
+            </div>
+        <div class="parcour_1">
+            <div class="contenue_1">
+                <h3>Baccalauréat général Mathématiques, Physique-Chimie, Maths Expertes</h3>
+                <h5>Lycée Maurice Genevoix, Ingré</h5>
+                <ul>
+                    <li>Cursus général</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+           
+        </section>
+
+        <div class="btncontact">
+            <div class="lesdeux">
+            <div>
+                <h3>Vous souhaitez me contacter?</h3>
+                <h3>Vous pouvez le faire en cliquant sur le bouton !</h3>
+            </div>
+            <div>
+                <a href="./contact.html" onclick="onPageLinkClicked('quatre')"><h5>Contact</h5></a>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="one">
+                <div>
+                    <p>Informations</p>
+                </div>
+                <div>
+                    <ul>
+                        <li>Youness Benakkaf</li>
+                        <li>younessbk45@icloud.com</li>
+                        <li>06 26 54 68 01</li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="two">
+                <div>
+                    <p>Menu</p>
+                </div>
+                <div>
+                    <ul>
+                        <li>home</li>
+                        <li>About</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div  class="tree">
+                <div>
+                    <p>Réseaux</p>
+                </div>
+                <div class="res">
+                    <a href="https://www.linkedin.com/in/youness-benakkaf-334a472b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin" ></i></a>
+                    <a href="https://github.com/ybkk65"><i class="fab fa-github" ></i></a>
+                    <a href="https://x.com/ybenakkaf?s=21&t=C0I7Cq6pZ4Nnw8e-dBh9cQ"><i class="fa-brands fa-x-twitter "></i></a>
+                </div>
+            </div>
+        </div>
+        <span class="footer__copy">
+            &#169; Copyright Youness Benakkaf. All rights reserved
+        </span>
+    </footer>
+    
+    <script src="../scrollreveal.min.js"></script>
+    <script src="../nav.js"></script>
+    <script src="../index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="../animations.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

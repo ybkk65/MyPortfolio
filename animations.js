@@ -38,3 +38,22 @@ contact.addEventListener('mouseenter', () => {
 contact.addEventListener('mouseleave', () => {
     contact.style.transform = 'scale(1)';
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const slider = document.querySelector('.slider');
+    let position = 0;
+  
+    function slide() {
+        position -= 1; // Vitesse de défilement en pixels par seconde
+  
+        if (position <= -70) { // Largeur d'une image
+            position = 0;
+            slider.appendChild(slider.firstElementChild);
+        }
+  
+        slider.style.transform = `translateX(${position}px)`;
+  
+        requestAnimationFrame(slide);
+    }
+  
+    slide();
+  });

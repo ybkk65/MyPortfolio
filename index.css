@@ -1846,3 +1846,31 @@ margin-bottom: 0;
 
 }
 
+
+.indexmain{
+  width: 94%;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.projmain{
+  width: 94%;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.ls{
+  width: 94%;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.aboutmain{
+  width: 94%;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}

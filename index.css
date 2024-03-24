@@ -577,6 +577,10 @@ button {
 
 /*footer-container*/
 
+footer{
+  margin: 0 auto;
+  max-width: 1200px;
+}
 .footer-container{
   display: flex;
   justify-content: space-between;

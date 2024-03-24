@@ -66,7 +66,7 @@ header {
 .pages{
   margin-top: 10px;
   display: flex;
-  width: 610px;
+  width: 620px;
   height: 60px;
   border-radius: 18px;
   background-color: #F8F8F8;
@@ -696,9 +696,9 @@ a{
 
 
   body{
-    width: 90%;
     margin: 140px auto 0 auto;
     overflow-x: hidden;
+    padding-right: 0;
  
   }
 
@@ -724,7 +724,7 @@ a{
   }
 
   .moi img{
-    width: 340px;
+    max-width: 340px;
     margin-top: 15px;
   }
 
@@ -894,7 +894,7 @@ flex-direction: column;
 }
 
 .maphoto img{
-  width: 390px;
+  max-width: 390px;
   border-radius: 200px;
 }
 
@@ -1116,7 +1116,7 @@ margin: 0 auto;
   font-size: 14px;
  }
  .maphoto img{
-  width: 320px;
+  max-width: 320px;
 }
 body{
   width: 100%;
@@ -1193,7 +1193,6 @@ textarea{
 
 
 .salut img{
-
 margin-bottom: -170px;
 margin-top: -100px;
 }
@@ -1321,8 +1320,8 @@ margin-right: 30px;
 
 .salut img{
   margin-top: -50px;
-  padding: 50px;
-max-width: 500px;
+width: 100%;
+height: auto;
 }
 
 .salut h3{
@@ -1419,8 +1418,7 @@ background: linear-gradient(to right, #24CCCF 27%, #CC38CF 100%);
 @media screen and (max-width:767px){
 
   body{
-    width: 90%;
-    margin: 0 auto;
+    
     overflow-x: hidden;
 padding: 0;
   }
@@ -1476,6 +1474,14 @@ padding: 0;
 
   .interpro span{
     font-size: 36px !important;
+  }
+
+  .salut h3{
+    margin-top: 140px;
+  }
+
+  .salut img{
+    margin-top: 10px;
   }
 }
 

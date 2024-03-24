@@ -16,8 +16,9 @@
 }
 
 body{
+  margin-top: 140px;
   max-width: 1200px;
-  margin: 140px auto 0 auto;
+  margin: 0 auto;
 }
 
 /*header style*/
@@ -1855,3 +1856,31 @@ margin-bottom: 0;
 
 }
 
+
+.indexmain{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.projmain{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.ls{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.aboutmain{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}

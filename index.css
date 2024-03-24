@@ -15,6 +15,10 @@
   z-index: 1;
 }
 
+body{
+  margin-top: 140px;
+}
+
 /*header style*/
 /*header style*/
 header {

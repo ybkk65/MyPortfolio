@@ -16,9 +16,9 @@
 }
 
 body{
-  margin-top: 140px;
+ 
   max-width: 1200px;
-  margin: 0 auto;
+  margin:120px  auto 0 auto;
 }
 
 /*header style*/

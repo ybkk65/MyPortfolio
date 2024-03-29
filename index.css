@@ -276,7 +276,7 @@ justify-content: center;
 /*section allCard */
 
 .allCard{
-  margin-top: 250px;
+  margin-top: 200px;
 }
 .line_one{
   width: 100%;
@@ -902,7 +902,7 @@ flex-direction: column;
   display: flex;
   
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 70px;
 }
 
@@ -1632,7 +1632,7 @@ width: 100vw;
 
 .projects{
   width: 80%;
-  margin: 120px auto;
+  margin: 50px auto;
 }
 .cardproject1{
   display: flex;
@@ -1888,4 +1888,20 @@ margin-bottom: 0;
   padding: 0;
   overflow-x: hidden;
   overflow-y: hidden;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .description_1{
+    margin-bottom: -70px;
+  }
+
+  .aboutmain{
+    margin-top: 20px;
+  }
+  
+  .ls{
+    margin-top: 20px;
+  }
 }

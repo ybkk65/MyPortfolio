@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '120px',
+    distance: '60px',
     duration: 2500,
     delay: 400,
 });
@@ -78,6 +78,8 @@ sr.reveal(`.interpro`);
 sr.reveal(`.salut`, { origin: 'left' });
 sr.reveal(`#formulaire`, { origin: 'right' });
 sr.reveal(`.Etudes`); 
+sr.reveal(`.competence`);
+sr.reveal(`#txtskill`);
 //slide
 
   // Cette fonction applique le style par défaut à la page Home (variable un)

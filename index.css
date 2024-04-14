@@ -6,8 +6,10 @@
    overflow-x:hidden ;
     padding: 0;
     width: 100vw;
+    margin-top: 0 !important;
   
   }
+  
 }
 
 *{
@@ -715,10 +717,9 @@ a{
 
   body{
     margin: 0;
-    
     overflow-x: hidden;
     padding: 0;
- 
+    margin-top:110px;
   }
 
   header{
@@ -1510,12 +1511,7 @@ header{
     top: 0;
     box-shadow: 2px 8px 10px 8px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
     /* Standard syntax */
-backdrop-filter: blur(12px);
-
-/* Préfixes pour les moteurs de rendu spécifiques */
--webkit-backdrop-filter: blur(12px); /* Chrome, Safari, Opera */
--moz-backdrop-filter: blur(12px); /* Firefox */
--ms-backdrop-filter: blur(12px); /* Edge */
+background-color: white;
 
     padding: 0;
     margin: 0;

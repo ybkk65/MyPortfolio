@@ -129,7 +129,7 @@ function onPageLinkClicked(page) {
 function downloadCV() {
     
     const link = document.createElement('a');
-    link.href = '../assets/cvybk.pdf'; 
+    link.href = '../assets/cvyk.pdf'; 
     link.download = 'cv.pdf'; 
     document.body.appendChild(link);
     link.click(); 
